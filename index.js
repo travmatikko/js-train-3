@@ -1,8 +1,7 @@
 // Задача 1: Напишіть функцію, яка перетворює рядок в число, використовуючи Number()
 
 function stringToNumber(str) {
-  const str = 42;
-  console.log('stringToNumber("42")', str(toString()));
+  return Number(str);
 
   // Використовуємо Number() для перетворення рядка в число
   // Повертаємо отримане число
@@ -14,9 +13,7 @@ console.log('stringToNumber("42")', str(toString())); // Виведе 42
 // Задача 2: Напишіть функцію, яка визначає, чи є два числа майже однаковими, використовуючи Number.EPSILON
 
 function isAlmostSame(num1, num2) {
-  let num1 = 0.1 + 0.2;
-  let num2 = 0.3;
-  console.log(num1 - num2 <= Number.EPSILON);
+  if (num1 - num2 <= Number.EPSILON);
   // Визначаємо, чи є різниця між двома числами меншою або рівною EPSILON
 }
 
@@ -135,8 +132,7 @@ console.log("convertToFixed(42.9876, 2)", convertToFixed(42.9876, 2)); // Вив
 // Задача 11: Напишіть функцію, яка конвертує число в рядок
 
 function convertToString(num) {
-  let num = 42;
-  console.log(num.toString());
+  return num.toString();
   // Використовуємо метод toString(), щоб конвертувати число в рядок
 }
 
